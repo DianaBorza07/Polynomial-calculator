@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="53.10714285714283" y="193.201171875">graphicalUserInterface</node>
+    <node x="77.57142857142858" y="13.201171875">dataModels</node>
+    <node x="0.0" y="113.201171875">businessLogic</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="businessLogic" target="dataModels">
+      <point x="-50.0" y="-15.0" />
+      <point x="50.0" y="93.201171875" />
+      <point x="140.42857142857144" y="93.201171875" />
+      <point x="-25.14285714285714" y="15.0" />
+    </edge>
+    <edge source="graphicalUserInterface" target="businessLogic">
+      <point x="-101.99999999999997" y="-15.0" />
+      <point x="87.10714285714286" y="168.201171875" />
+      <point x="100.0" y="168.201171875" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="graphicalUserInterface" target="graphicalUserInterface">
+      <point x="90.66666666666669" y="15.0" />
+      <point x="279.7738095238095" y="263.201171875" />
+      <point x="13.107142857142833" y="263.201171875" />
+      <point x="13.107142857142833" y="198.201171875" />
+      <point x="-136.0" y="-10.0" />
+    </edge>
+    <edge source="graphicalUserInterface" target="dataModels">
+      <point x="102.00000000000003" y="-15.0" />
+      <point x="291.1071428571429" y="168.201171875" />
+      <point x="232.5" y="168.201171875" />
+      <point x="232.5" y="93.201171875" />
+      <point x="241.0" y="93.201171875" />
+      <point x="75.42857142857142" y="15.0" />
+    </edge>
+    <edge source="dataModels" target="dataModels">
+      <point x="-50.28571428571429" y="15.0" />
+      <point x="115.28571428571429" y="73.201171875" />
+      <point x="47.571428571428584" y="73.201171875" />
+      <point x="47.571428571428584" y="20.701171875" />
+      <point x="-88.0" y="-7.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="162.99999999999994" y="137.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

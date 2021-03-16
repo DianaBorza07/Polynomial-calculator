@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="316.27182539682536" y="350.0">graphicalUserInterface.Model</node>
+    <node x="65.62341269841264" y="80.0">dataModels.DoubleMonomial</node>
+    <node x="269.37341269841266" y="80.0">dataModels.IntegerMonomial</node>
+    <node x="351.5662698412698" y="440.0">graphicalUserInterface.View</node>
+    <node x="361.04999999999995" y="610.0">graphicalUserInterface.Main</node>
+    <node x="234.75" y="170.0">dataModels.IntegerPolynomial</node>
+    <node x="139.0" y="250.0">businessLogic.Operations</node>
+    <node x="267.5662698412698" y="520.0">graphicalUserInterface.Controller</node>
+    <node x="0.0" y="170.0">dataModels.DoublePolynomial</node>
+    <node x="228.6444444444444" y="0.0">dataModels.Monomial</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="graphicalUserInterface.Model" target="dataModels.IntegerMonomial">
+      <point x="37.714285714285715" y="-15.0" />
+      <point x="397.9861111111111" y="330.0" />
+      <point x="440.25" y="330.0" />
+      <point x="440.25" y="140.0" />
+      <point x="423.37341269841266" y="140.0" />
+      <point x="70.0" y="15.0" />
+    </edge>
+    <edge source="dataModels.IntegerPolynomial" target="dataModels.IntegerMonomial">
+      <point x="-46.0" y="-15.0" />
+      <point x="280.75" y="150.0" />
+      <point x="339.37341269841266" y="150.0" />
+      <point x="-14.0" y="15.0" />
+    </edge>
+    <edge source="graphicalUserInterface.Main" target="graphicalUserInterface.Controller">
+      <point x="-20.0" y="-15.0" />
+      <point x="381.04999999999995" y="580.0" />
+      <point x="299.5662698412698" y="580.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="dataModels.DoublePolynomial" target="dataModels.DoubleMonomial">
+      <point x="-44.0" y="-15.0" />
+      <point x="44.0" y="150.0" />
+      <point x="85.62341269841264" y="150.0" />
+      <point x="-60.0" y="15.0" />
+    </edge>
+    <edge source="dataModels.IntegerMonomial" target="dataModels.Monomial">
+      <point x="-42.0" y="-15.0" />
+      <point x="311.37341269841266" y="60.0" />
+      <point x="298.6444444444444" y="60.0" />
+      <point x="14.0" y="15.0" />
+    </edge>
+    <edge source="graphicalUserInterface.Main" target="graphicalUserInterface.Model">
+      <point x="-33.33333333333337" y="-15.0" />
+      <point x="367.7166666666666" y="590.0" />
+      <point x="257.0662698412698" y="590.0" />
+      <point x="257.0662698412698" y="400.0" />
+      <point x="323.6051587301587" y="400.0" />
+      <point x="-36.666666666666686" y="15.0" />
+    </edge>
+    <edge source="graphicalUserInterface.Controller" target="graphicalUserInterface.Model">
+      <point x="-16.0" y="-15.0" />
+      <point x="315.5662698412698" y="420.0" />
+      <point x="352.93849206349205" y="420.0" />
+      <point x="-7.333333333333314" y="15.0" />
+    </edge>
+    <edge source="graphicalUserInterface.Controller" target="graphicalUserInterface.View">
+      <point x="16.0" y="-15.0" />
+      <point x="347.5662698412698" y="495.0" />
+      <point x="361.5662698412698" y="495.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+    <edge source="dataModels.DoubleMonomial" target="dataModels.Monomial">
+      <point x="40.0" y="-15.0" />
+      <point x="185.62341269841264" y="60.0" />
+      <point x="270.6444444444444" y="60.0" />
+      <point x="-14.0" y="15.0" />
+    </edge>
+    <edge source="businessLogic.Operations" target="dataModels.IntegerMonomial">
+      <point x="8.0" y="-15.0" />
+      <point x="211.0" y="230.0" />
+      <point x="213.25" y="230.0" />
+      <point x="213.25" y="130.0" />
+      <point x="283.37341269841266" y="130.0" />
+      <point x="-70.0" y="15.0" />
+    </edge>
+    <edge source="businessLogic.Operations" target="dataModels.DoubleMonomial">
+      <point x="-8.0" y="-15.0" />
+      <point x="195.0" y="230.0" />
+      <point x="197.5" y="230.0" />
+      <point x="197.5" y="150.0" />
+      <point x="205.62341269841264" y="150.0" />
+      <point x="60.0" y="15.0" />
+    </edge>
+    <edge source="graphicalUserInterface.Model" target="businessLogic.Operations">
+      <point x="-25.142857142857167" y="-15.0" />
+      <point x="335.1289682539682" y="320.0" />
+      <point x="203.0" y="320.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="graphicalUserInterface.Main" target="graphicalUserInterface.View">
+      <point x="20.0" y="-15.0" />
+      <point x="421.04999999999995" y="590.0" />
+      <point x="426.3162698412698" y="590.0" />
+      <point x="426.3162698412698" y="495.0" />
+      <point x="421.5662698412698" y="495.0" />
+      <point x="30.0" y="15.0" />
+    </edge>
+    <edge source="graphicalUserInterface.View" target="graphicalUserInterface.Model">
+      <point x="-20.0" y="-15.0" />
+      <point x="371.5662698412698" y="420.0" />
+      <point x="367.6051587301587" y="420.0" />
+      <point x="7.333333333333314" y="15.0" />
+    </edge>
+    <edge source="businessLogic.Operations" target="dataModels.DoublePolynomial">
+      <point x="-56.0" y="-15.0" />
+      <point x="147.0" y="230.0" />
+      <point x="88.0" y="230.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="graphicalUserInterface.Model" target="dataModels.DoublePolynomial">
+      <point x="-37.71428571428572" y="-15.0" />
+      <point x="322.55753968253964" y="330.0" />
+      <point x="68.7900793650793" y="330.0" />
+      <point x="68.7900793650793" y="230.0" />
+      <point x="29.333333333333314" y="230.0" />
+      <point x="-58.666666666666686" y="15.0" />
+    </edge>
+    <edge source="graphicalUserInterface.Model" target="dataModels.IntegerPolynomial">
+      <point x="12.571428571428555" y="-15.0" />
+      <point x="372.8432539682539" y="310.0" />
+      <point x="398.1734126984127" y="310.0" />
+      <point x="398.1734126984127" y="230.0" />
+      <point x="400.35" y="230.0" />
+      <point x="73.60000000000002" y="15.0" />
+    </edge>
+    <edge source="businessLogic.Operations" target="dataModels.IntegerPolynomial">
+      <point x="40.0" y="-15.0" />
+      <point x="243.0" y="230.0" />
+      <point x="253.15" y="230.0" />
+      <point x="-73.6" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7562289562289561" x="349.4761609815563" y="601.824994331867" />
+  <SelectedNodes>
+    <node>graphicalUserInterface.Model</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
