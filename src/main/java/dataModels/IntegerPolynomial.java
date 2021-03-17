@@ -21,17 +21,19 @@ public class IntegerPolynomial {
 
     public String getPolynomialString(){
         Collections.sort(polinom);
-        String s= this.polinom.get(0).toString();
-        this.polinom.get(0).setMarked(true);
-        for (IntegerMonomial m : this.polinom)
-        {
-            if(!m.isMarked())
-                if(m.getCoefficient() > 0)
-                    s=s+" + "+m.toString();
-                else
-                    s=s+" "+m.toString();
+        if(!this.polinom.isEmpty()) {
+            String s = this.polinom.get(0).toString();
+            this.polinom.get(0).setMarked(true);
+            for (IntegerMonomial m : this.polinom) {
+                if (!m.isMarked())
+                    if (m.getCoefficient() > 0)
+                        s = s + " + " + m.toString();
+                    else
+                        s = s + " " + m.toString();
+            }
+            return s;
         }
-        return s;
+        return null;
     }
 
     public void clearMarks(){
